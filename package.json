@@ -28,6 +28,10 @@
   "peerDependencies": {},
   "scripts": {
     "build": "rollup -c",
-    "dist": "NODE_ENV=production npm run build -s"
+    "dist": "NODE_ENV=production npm run build -s",
+    "linter": "prettier --list-different",
+    "formatter": "prettier --write",
+    "lint": "npm run linter -s -- '**/*.{md,css,js,json}'",
+    "format": "npm run formatter -s -- '**/*.{md,css,js,json}'"
   }
 }

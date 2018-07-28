@@ -1,0 +1,23 @@
+{
+  "name": "automation-playground",
+  "version": "0.1.0",
+  "description": "A safe place to play with various project automation techniques, particularly around software releases.",
+  "author": "Thibaud Colas",
+  "license": "MIT",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thibaudcolas/automation-playground.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thibaudcolas/automation-playground/issues"
+  },
+  "homepage": "https://thibaudcolas.github.io/automation-playground/",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {},
+  "dependencies": {},
+  "scripts": {}
+}

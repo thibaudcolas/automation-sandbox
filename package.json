@@ -1,5 +1,5 @@
 {
-  "name": "automation-playground",
+  "name": "@thibaudcolas/automation-playground",
   "version": "0.1.0",
   "description": "A safe place to play with various project automation techniques, particularly around software releases.",
   "author": "Thibaud Colas",

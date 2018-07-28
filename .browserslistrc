@@ -1,0 +1,4 @@
+# Supported browsers.
+# See https://github.com/browserslist/browserslist.
+> 1%
+IE 11

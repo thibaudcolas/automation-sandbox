@@ -20,6 +20,7 @@
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
+    "danger": "^3.8.0",
     "prettier": "^1.13.7",
     "rollup": "^0.63.4",
     "rollup-plugin-babel": "^3.0.7"
@@ -33,6 +34,7 @@
     "formatter": "prettier --write",
     "lint": "npm run linter -s -- '**/*.{md,css,js,json}'",
     "format": "npm run formatter -s -- '**/*.{md,css,js,json}'",
-    "test:ci": "npm run dist -s && npm run lint -s"
+    "test:ci": "npm run dist -s && npm run lint -s",
+    "danger": "danger ci --verbose"
   }
 }

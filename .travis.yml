@@ -4,8 +4,12 @@ install:
 - npm ci
 script:
 - npm run test:ci
+- npm run danger
 branches:
   except:
   - gh-pages
 notifications:
   email: false
+env:
+  global:
+    secure: u3fKp8l39aPQTAQVwgRPXT5qk2MOBlM9u3m3YXqxOBzlE3E4H+aT6lJ2yt89ohGzlphwGU1o1LBmPFPsaU8Efno4IMQLLE/llwx6Rc1if6p0jG0PdXwra8D8kz93iFS8R9Mn5ds4DvH8ax1lLkzy07Lbm9XRmwumaLPUVZo7mP/kZM3hlzn76TzLZOUKJ7S8w6TTwMccge4gMMoLWAhT34X/VtwwxRYeUTYnXcsdPbjJPl+ih5Uest+a4dFLonb+0Hc/qlo9w4rhkYO5trbnIJIdEz6eyVyUCPPacTvRFxvZCCRJfcY1LbJnBFAw2cOjpHIMFdZx4gtQvaYv83JACp7Waje8oswpmUPYB43QYRaQ9EwN0q6u26/Z4z9LPnk2vm9f6NuSF7gOf9rei9H6/S0B0dG8dDOvo+sQ/lRsv8FDlRVVNsHxm3UGj24dwu7QJKYc05IN4xRVq5mLkDYgSBX6dOES9+NWqJtDRuDxdKBI/N8tzYpJQaoIlI5m8cOt9xrijUmt/Q86h508JiH8eqzz0iB/21aNlU5nvGpm64rMdWk0ZLn8xzAnzupyncfrceZjIVqgdy707x9iClFEu6IlazGqTbbeHROIOW2TVE3Adzc81G9k95Xe3TgFKcpICi9kyjcXUG1ziJAcgmVEd3DMqyKE1bKq9c66HCl0cXY=

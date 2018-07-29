@@ -18,6 +18,8 @@
     "dist"
   ],
   "devDependencies": {
+    "@semantic-release/changelog": "^3.0.0",
+    "@semantic-release/git": "^7.0.1",
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
     "danger": "^3.8.0",

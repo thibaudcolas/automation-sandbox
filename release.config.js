@@ -11,6 +11,16 @@ const SUCCESS_COMMENT = `:tada: This \${issue.pull_request ? 'pull request is in
   pkg.name
 }@\${nextRelease.version} on npm](https://www.npmjs.com/package/${pkg.name}).`;
 
+/**
+ * See:
+ * https://semantic-release.gitbook.io/semantic-release/
+ * https://github.com/semantic-release/npm
+ * https://github.com/semantic-release/github
+ * https://github.com/semantic-release/git
+ * https://github.com/semantic-release/release-notes-generator
+ * https://github.com/semantic-release/commit-analyzer
+ * https://github.com/semantic-release/changelog
+ */
 module.exports = {
   branch: "master",
   tagFormat: "v${version}",

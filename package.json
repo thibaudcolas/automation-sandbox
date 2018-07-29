@@ -1,6 +1,6 @@
 {
   "name": "@thibaudcolas/automation-playground",
-  "version": "0.1.0",
+  "version": "0.0.0-development",
   "description": "A safe place to play with various project automation techniques, particularly around software releases.",
   "author": "Thibaud Colas",
   "license": "MIT",
@@ -23,7 +23,8 @@
     "danger": "^3.8.0",
     "prettier": "^1.13.7",
     "rollup": "^0.63.4",
-    "rollup-plugin-babel": "^3.0.7"
+    "rollup-plugin-babel": "^3.0.7",
+    "semantic-release": "^15.8.1"
   },
   "dependencies": {},
   "peerDependencies": {},
@@ -35,6 +36,7 @@
     "lint": "npm run linter -s -- '**/*.{md,css,js,json}'",
     "format": "npm run formatter -s -- '**/*.{md,css,js,json}'",
     "test:ci": "npm run dist -s && npm run lint -s",
-    "danger": "danger ci --verbose"
+    "danger": "danger ci --verbose",
+    "semantic-release": "semantic-release"
   }
 }

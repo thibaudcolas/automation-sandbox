@@ -5,7 +5,7 @@ install:
 script:
 - npm run test:ci
 - npm run danger
-- tar -xzvf $(npm pack) || true
+- npm pack --loglevel notice
 branches:
   except:
   - gh-pages

@@ -7,6 +7,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 `;
 
+const SUCCESS_COMMENT = `:tada: This \${issue.pull_request ? 'pull request is included' : 'issue is fixed'} in version v\${nextRelease.version}. Get [${
+  pkg.name
+}@\${nextRelease.version} on npm](https://www.npmjs.com/package/${pkg.name}).`;
+
 module.exports = {
   branch: "master",
   tagFormat: "v${version}",
@@ -48,8 +52,7 @@ module.exports = {
   success: [
     {
       path: "@semantic-release/github",
-      successComment:
-        ":tada: This issue has been resolved in version ${nextRelease.version} :tada:\n\nThe release is available on [GitHub release](<github_release_url>)",
+      successComment: SUCCESS_COMMENT,
     },
   ],
   fail: ["@semantic-release/github"],

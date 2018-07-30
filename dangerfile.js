@@ -1,5 +1,4 @@
-import path from "path";
-import { danger, message, warn, fail, schedule } from "danger";
+const { danger, message, warn, fail, schedule } = require("danger");
 
 const hasLabels = danger.github.issue.labels.length !== 0;
 

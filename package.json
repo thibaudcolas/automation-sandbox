@@ -39,6 +39,7 @@
     "format": "npm run formatter -s -- '**/*.{md,css,js,json}'",
     "test:ci": "npm run dist -s && npm run lint -s",
     "danger": "danger ci --verbose",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "prepublish": "npm run dist"
   }
 }

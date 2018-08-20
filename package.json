@@ -40,6 +40,6 @@
     "test:ci": "npm run dist -s && npm run lint -s",
     "danger": "danger ci --verbose",
     "semantic-release": "semantic-release",
-    "prepublish": "npm run dist"
+    "prepublishOnly": "npm run dist"
   }
 }

@@ -1,20 +1,17 @@
 sudo: false
 language: node_js
 install:
-- npm ci
+  - npm ci
 script:
-- npm run test:ci
-- npm run danger
-- npm pack --loglevel notice
+  - npm run test:ci
+  - npm run danger
+  - npm pack --loglevel notice
 branches:
   except:
-  - gh-pages
+    - gh-pages
 deploy:
   provider: script
   skip_cleanup: true
   script: npm run semantic-release
 notifications:
   email: false
-env:
-  global:
-    secure: QrqYsjh51dtbzqOwWGkcYpD0eCCjOPL1xMk73+v8FBSG0otFZCuJRpQdLhWAfzHi0GAeAJDz/KGorinPfy0mb7VPJ5yjcV06NfSKZKVQr6X4CPuusAgcFUWrZ1Ru4f0rYENYbrnXOFhJE57enG4BJQvRynQryoo74rujTZ7VrSh87aYfcuU1MvC2mf3HjA+FWtW4PyFsP6ygS86XHAeYCLSvUaeH3ykFxtpNP6X+E0YcutqevdSxUL8rBwFPP7N2ZcuCbC0bj0FI2XqRRszKxUqH1+xMmzRbrsTbs7qz5z17HHQV4ySzL1iB7RRA5e8UBrpnFM87WBa0GqIzVMTacrcWQWjd7fF4AB11XlmcLv2SUA4PhE8DR6wd+AbjmRXdXAf0LCwSlxNwOlGkU64oZMuG8k7CH7el5Q8GhmHR0i/oU3Bnj6NcrrScvq1CHj8E4hsxASiWGLOlgNpkpovl58mcl/8X0E0CkNEMmSvKwuHNBe7euhOh3WOJ7w8jhivDxh+SbgN7FZpj3aOR+mu85gGe/4SY4x81aq6NOY3pXLMOhUrYOVzazIu5Nr5kVzAq1Njw8N1vGxJrpkkjuG9ll1YT95iL7usAnUT2FLId3eNo/k1Vznp69zOucqjMimiiq9h4McrzFQnThrgcNRig2FEi2Tg1HFdNCMKYmlvEhFE=

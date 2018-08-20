@@ -1,5 +1,5 @@
 {
-  "name": "@thibaudcolas/automation-playground",
+  "name": "@thibaudcolas/automation-sandbox",
   "version": "0.1.0",
   "description": "A safe place to play with various project automation techniques, particularly around software releases.",
   "author": "Thibaud Colas",
@@ -8,12 +8,12 @@
   "module": "dist/index.esm.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thibaudcolas/automation-playground.git"
+    "url": "https://github.com/thibaudcolas/automation-sandbox.git"
   },
   "bugs": {
-    "url": "https://github.com/thibaudcolas/automation-playground/issues"
+    "url": "https://github.com/thibaudcolas/automation-sandbox/issues"
   },
-  "homepage": "https://thibaudcolas.github.io/automation-playground/",
+  "homepage": "https://thibaudcolas.github.io/automation-sandbox/",
   "files": [
     "dist"
   ],

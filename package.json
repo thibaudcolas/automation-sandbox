@@ -15,7 +15,7 @@
   },
   "homepage": "https://thibaudcolas.github.io/automation-sandbox/",
   "files": [
-    "dist"
+    "dist/*.js"
   ],
   "devDependencies": {
     "@semantic-release/changelog": "^3.0.0",

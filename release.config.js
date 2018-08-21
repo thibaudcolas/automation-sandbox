@@ -53,7 +53,7 @@ module.exports = {
     },
     {
       path: "@semantic-release/exec",
-      cmd: "npx prettier --write CHANGELOG.md",
+      cmd: "prettier --write CHANGELOG.md",
     },
     "@semantic-release/npm",
     {

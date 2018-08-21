@@ -1,6 +1,6 @@
 {
   "name": "@thibaudcolas/automation-sandbox",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A safe place to play with various project automation techniques, particularly around software releases.",
   "author": "Thibaud Colas",
   "license": "MIT",

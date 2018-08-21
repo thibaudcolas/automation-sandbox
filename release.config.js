@@ -51,6 +51,10 @@ module.exports = {
       changelogFile: "CHANGELOG.md",
       changelogTitle: CHANGELOG_HEADER,
     },
+    {
+      path: "@semantic-release/exec",
+      cmd: "npx prettier --write CHANGELOG.md",
+    },
     "@semantic-release/npm",
     {
       path: "@semantic-release/git",
